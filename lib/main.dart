@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 import 'package:vakilhire/Pages/root.dart';
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold( body: Root()),
+      home: Scaffold(body: Root()),
     );
   }
 }
