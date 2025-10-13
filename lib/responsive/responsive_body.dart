@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:vakilhire/Desktop%20web/loginpc.dart';
+
 
 class ResponsiveBody extends StatelessWidget {
   final Widget mobileBody;
