@@ -2,6 +2,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vakilhire/Colors/app_colors.dart';
+import 'package:vakilhire/widgets/loginButton.dart';
+import 'package:vakilhire/widgets/passwordTextFeild.dart';
+import 'package:vakilhire/widgets/userNameTextFeild.dart';
 
 class Loginmob extends StatelessWidget {
   const Loginmob({super.key});
@@ -41,6 +44,76 @@ class Loginmob extends StatelessWidget {
                   ],
                 ),
               ),
+              SizedBox(height: 40),
+              userName(),
+              SizedBox(height: 20),
+              password(),
+              SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Text(
+                    "Forgot Password?",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              SizedBox(height: 30),
+              loginButton(),
+              SizedBox(height: 30),
+              Row(
+                children: [
+                  Expanded(child: Divider(color: Colors.grey, thickness: 1)),
+                  Padding(
+                    padding: EdgeInsetsGeometry.symmetric(horizontal: 10),
+                    child: Text(
+                      "or continue with",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                  Expanded(child: Divider(thickness: 1, color: Colors.grey)),
+                ],
+              ),
+              SizedBox(height: 30),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.black, // optional background
+                    backgroundImage: NetworkImage(
+                      "assets/images/gg.png", 
+                    ),
+                  ),
+                  SizedBox(width: 15,),
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.black, // optional background
+                    backgroundImage: NetworkImage(
+                      "assets/images/appi.png", // replace with black logo
+                    ),
+                  ),
+                  SizedBox(width: 15,),
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.black, // optional background
+                    backgroundImage: NetworkImage(
+                      "assets/images/fb.png", // replace with black logo
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: 100,),
+              RichText(
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  style: TextStyle(color: Colors.black, fontSize: 14),
+                  children: [
+                    TextSpan(text: "Not a member?",style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(text: " Register Now",style: TextStyle(color: Colors.green,fontWeight: FontWeight.bold))
+                  ]
+                  ),
+                ),
             ],
           ),
         ),
