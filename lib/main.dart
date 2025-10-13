@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'package:vakilhire/Colors/app_colors.dart';
+import 'package:vakilhire/Root/root.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,10 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: AppColors.background,
-        body: Center(child: Text('')),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(backgroundColor: AppColors.background, body: Root()),
     );
   }
 }
