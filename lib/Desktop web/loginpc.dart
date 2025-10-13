@@ -6,6 +6,6 @@ class Loginpc extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: AppColors.lGreen);
+    return Scaffold(backgroundColor: AppColors.background);
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:vakilhire/Colors/app_colors.dart';
-import 'package:vakilhire/Root/root.dart';
+import 'package:vakilhire/Pages/root.dart';
 
 void main() {
   runApp(MyApp());
