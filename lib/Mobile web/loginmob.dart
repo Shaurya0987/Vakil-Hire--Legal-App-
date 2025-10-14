@@ -80,40 +80,50 @@ class Loginmob extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 30,
-                    backgroundColor: Colors.black, // optional background
-                    backgroundImage: NetworkImage(
-                      "assets/images/gg.png", 
-                    ),
+                    backgroundColor: Colors.black,
+                    backgroundImage: AssetImage(
+                      "assets/images/goggle.png",
+                    ), 
                   ),
-                  SizedBox(width: 15,),
+                  SizedBox(width: 15),
                   CircleAvatar(
                     radius: 30,
-                    backgroundColor: Colors.black, // optional background
-                    backgroundImage: NetworkImage(
-                      "assets/images/appi.png", // replace with black logo
-                    ),
+                    backgroundColor: Colors.black,
+                    backgroundImage: AssetImage(
+                      "assets/images/apple.png",
+                    ), 
                   ),
-                  SizedBox(width: 15,),
+                  SizedBox(width: 15),
                   CircleAvatar(
                     radius: 30,
-                    backgroundColor: Colors.black, // optional background
-                    backgroundImage: NetworkImage(
-                      "assets/images/fb.png", // replace with black logo
-                    ),
+                    backgroundColor: Colors.black,
+                    backgroundImage: AssetImage(
+                      "assets/images/faceBook.png",
+                    ), 
                   ),
                 ],
               ),
-              SizedBox(height: 100,),
+
+              SizedBox(height: 100),
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
                   style: TextStyle(color: Colors.black, fontSize: 14),
                   children: [
-                    TextSpan(text: "Not a member?",style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: " Register Now",style: TextStyle(color: Colors.green,fontWeight: FontWeight.bold))
-                  ]
-                  ),
+                    TextSpan(
+                      text: "Not a member?",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    TextSpan(
+                      text: " Register Now",
+                      style: TextStyle(
+                        color: Colors.green,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
+              ),
             ],
           ),
         ),
