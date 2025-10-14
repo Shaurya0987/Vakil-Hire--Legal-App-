@@ -16,11 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-<<<<<<< HEAD
       home: Scaffold(body: Root()),
-=======
-      home: Scaffold(body:Loginmob()),
->>>>>>> 0a916c6 (Removed Icons)
     );
   }
 }
