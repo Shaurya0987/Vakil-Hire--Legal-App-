@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:vakilhire/Pages/root.dart';
+import 'package:vakilhire/Pages/settingPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Root()),
+      home: Scaffold(body: SettingPage()),
     );
   }
 }
