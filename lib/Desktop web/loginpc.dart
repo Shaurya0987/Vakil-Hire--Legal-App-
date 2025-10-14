@@ -105,13 +105,13 @@ class Loginpc extends StatelessWidget {
                         icon_row(icon: FontAwesomeIcons.google),
                         icon_row(icon: FontAwesomeIcons.facebook),
                         icon_row(icon: FontAwesomeIcons.github),
+                        icon_row(icon: FontAwesomeIcons.instagram),
                       ],
                     ),
                   ],
                 ),
               ),
 
-              // Right image
               if (size.width > 900)
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 40),
