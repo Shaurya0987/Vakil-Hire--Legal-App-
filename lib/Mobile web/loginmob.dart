@@ -41,6 +41,16 @@ class Loginmob extends StatelessWidget {
                   ],
                 ),
               ),
+              SizedBox(height: 40),
+              Container(
+                height: 70,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  border: Border.all(color: AppColors.surface),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: TextField(),
+              ),
             ],
           ),
         ),
