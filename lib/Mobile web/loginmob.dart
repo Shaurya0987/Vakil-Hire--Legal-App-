@@ -81,25 +81,19 @@ class Loginmob extends StatelessWidget {
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
-                    backgroundImage: AssetImage(
-                      "assets/images/goggle.png",
-                    ), 
+                    backgroundImage: AssetImage("assets/images/goggle.png"),
                   ),
                   SizedBox(width: 15),
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
-                    backgroundImage: AssetImage(
-                      "assets/images/apple.png",
-                    ), 
+                    backgroundImage: AssetImage("assets/images/apple.png"),
                   ),
                   SizedBox(width: 15),
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
-                    backgroundImage: AssetImage(
-                      "assets/images/faceBook.png",
-                    ), 
+                    backgroundImage: AssetImage("assets/images/faceBook.png"),
                   ),
                 ],
               ),
