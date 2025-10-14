@@ -45,16 +45,6 @@ class Loginmob extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 40),
-
-              Container(
-                height: 70,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  border: Border.all(color: AppColors.surface),
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: TextField(),
-
               userName(),
               SizedBox(height: 20),
               password(),
@@ -91,25 +81,19 @@ class Loginmob extends StatelessWidget {
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
-                    backgroundImage: AssetImage(
-                      "assets/images/goggle.png",
-                    ), 
+                    backgroundImage: AssetImage("assets/images/goggle.png"),
                   ),
                   SizedBox(width: 15),
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
-                    backgroundImage: AssetImage(
-                      "assets/images/apple.png",
-                    ), 
+                    backgroundImage: AssetImage("assets/images/apple.png"),
                   ),
                   SizedBox(width: 15),
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.black,
-                    backgroundImage: AssetImage(
-                      "assets/images/faceBook.png",
-                    ), 
+                    backgroundImage: AssetImage("assets/images/faceBook.png"),
                   ),
                 ],
               ),
@@ -133,8 +117,7 @@ class Loginmob extends StatelessWidget {
                     ),
                   ],
                 ),
-
-              ),)
+              ),
             ],
           ),
         ),
