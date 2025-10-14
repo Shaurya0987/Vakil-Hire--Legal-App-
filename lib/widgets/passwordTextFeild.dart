@@ -10,7 +10,7 @@ class password extends StatelessWidget {
       decoration: InputDecoration(
         hintText: "Password",
         hintStyle: TextStyle(color: Colors.grey),
-        prefixIcon: Icon(Icons.password_outlined),
+        
         // contentPadding: EdgeInsets.symmetric(horizontal: 40),
         suffixIcon: Icon(Icons.visibility_off),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(25)),

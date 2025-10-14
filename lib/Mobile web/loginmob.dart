@@ -30,7 +30,7 @@ class Loginmob extends StatelessWidget {
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  style: TextStyle(color: Colors.black, fontSize: 14),
+                  style: TextStyle(color: AppColors.surface.withValues(alpha: 0.5), fontSize: 14),
                   children: [
                     TextSpan(text: "Boost your confidence with "),
                     TextSpan(
