@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'package:vakilhire/Pages/root.dart';
-import 'package:vakilhire/Pages/settingPage.dart';
 
 void main() {
   runApp(MyApp());

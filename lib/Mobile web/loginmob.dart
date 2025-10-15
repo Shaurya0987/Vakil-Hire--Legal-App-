@@ -1,6 +1,5 @@
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:vakilhire/Colors/app_colors.dart';
 import 'package:vakilhire/widgets/loginButton.dart';
 import 'package:vakilhire/widgets/passwordTextFeild.dart';
