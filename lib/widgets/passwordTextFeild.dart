@@ -24,7 +24,7 @@ class _PasswordFieldState extends State<PasswordField> {
           ),
           onPressed: () {
             setState(() {
-              _obscureText = !_obscureText; // toggle visibility
+              _obscureText = !_obscureText; 
             });
           },
         ),
