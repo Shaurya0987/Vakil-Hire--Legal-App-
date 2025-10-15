@@ -1,7 +1,6 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:vakilhire/Colors/app_colors.dart';
 import 'package:vakilhire/Desktop%20web/loginpc.dart';
 import 'package:vakilhire/widgets/loginButton.dart';
