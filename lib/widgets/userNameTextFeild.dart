@@ -10,7 +10,6 @@ class userName extends StatelessWidget {
       decoration: InputDecoration(
         hintText: "UserName",
         hintStyle: TextStyle(color: Colors.grey),
-        prefixIcon: Icon(Icons.person),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(25)),
       ),
     );

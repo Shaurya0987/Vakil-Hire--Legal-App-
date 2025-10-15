@@ -1,6 +1,8 @@
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:vakilhire/Colors/app_colors.dart';
+import 'package:vakilhire/Desktop%20web/loginpc.dart';
 import 'package:vakilhire/widgets/loginButton.dart';
 import 'package:vakilhire/widgets/passwordTextFeild.dart';
 import 'package:vakilhire/widgets/userNameTextFeild.dart';
@@ -29,7 +31,10 @@ class Loginmob extends StatelessWidget {
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  style: TextStyle(color: Colors.black, fontSize: 14),
+                  style: TextStyle(
+                    color: AppColors.surface.withValues(alpha: 0.5),
+                    fontSize: 14,
+                  ),
                   children: [
                     TextSpan(text: "Boost your confidence with "),
                     TextSpan(
@@ -46,7 +51,7 @@ class Loginmob extends StatelessWidget {
               SizedBox(height: 40),
               userName(),
               SizedBox(height: 20),
-              password(),
+              PasswordField(),
               SizedBox(height: 10),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -67,7 +72,10 @@ class Loginmob extends StatelessWidget {
                     padding: EdgeInsetsGeometry.symmetric(horizontal: 10),
                     child: Text(
                       "or continue with",
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        color: AppColors.surface.withValues(alpha: 0.5),
+                        fontSize: 14,
+                      ),
                     ),
                   ),
                   Expanded(child: Divider(thickness: 1, color: Colors.grey)),
@@ -75,25 +83,12 @@ class Loginmob extends StatelessWidget {
               ),
               SizedBox(height: 30),
               Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.black,
-                    backgroundImage: AssetImage("assets/images/goggle.png"),
-                  ),
-                  SizedBox(width: 15),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.black,
-                    backgroundImage: AssetImage("assets/images/apple.png"),
-                  ),
-                  SizedBox(width: 15),
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: Colors.black,
-                    backgroundImage: AssetImage("assets/images/faceBook.png"),
-                  ),
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: const [
+                  icon_row(icon: FontAwesomeIcons.google),
+                  icon_row(icon: FontAwesomeIcons.facebook),
+                  icon_row(icon: FontAwesomeIcons.github),
+                  icon_row(icon: FontAwesomeIcons.instagram),
                 ],
               ),
 
