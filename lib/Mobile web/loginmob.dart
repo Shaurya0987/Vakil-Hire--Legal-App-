@@ -67,7 +67,7 @@ class Loginmob extends StatelessWidget {
               SizedBox(height: 30),
               Row(
                 children: [
-                  Expanded(child: Divider(color: Colors.grey, thickness: 1)),
+                  Expanded(child: Divider(color: Colors.grey.shade400, thickness: 1)),
                   Padding(
                     padding: EdgeInsetsGeometry.symmetric(horizontal: 10),
                     child: Text(
